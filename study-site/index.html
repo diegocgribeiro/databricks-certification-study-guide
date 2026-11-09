@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Databricks Certificações PT-BR</title>
+  <meta name="description" content="Site de estudos para as certificações Databricks: conteúdo em português quando disponível, questões em inglês, caderno de erros, pontos fracos, revisão espaçada e simulados.">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234f46e5'/%3E%3Cpath d='M16 22l16-9 16 9-16 9z' fill='%23fff'/%3E%3Cpath d='M16 32l16 9 16-9M16 42l16 9 16-9' stroke='%23fff' stroke-width='4' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#/">
+        <svg viewBox="0 0 64 64" width="32" height="32" aria-hidden="true"><rect width="64" height="64" rx="14" fill="currentColor"/><path d="M16 22l16-9 16 9-16 9z" fill="#fff"/><path d="M16 32l16 9 16-9M16 42l16 9 16-9" stroke="#fff" stroke-width="4" fill="none" stroke-linejoin="round"/></svg>
+        <div>
+          <strong>Certificações Databricks</strong>
+          <small>Estudo PT-BR · Questões EN</small>
+        </div>
+      </a>
+      <div class="cert-switch">
+        <label class="small muted" for="cert-select">Certificação</label>
+        <select id="cert-select"></select>
+      </div>
+      <nav class="nav" aria-label="Principal" id="nav"></nav>
+      <div class="sidebar-foot">
+        <button class="btn ghost small" id="theme-toggle" type="button">🌓 Tema</button>
+        <span class="muted small" id="offline-badge" hidden>📴 Modo offline</span>
+        <a class="muted small" href="https://github.com/diegocgribeiro/databricks-certification-study-guide" target="_blank" rel="noopener">Código no GitHub</a>
+      </div>
+    </aside>
+    <header class="topbar">
+      <button class="btn ghost" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <strong id="topbar-title">Certificações Databricks</strong>
+      <span class="topbar-timer" id="topbar-timer" hidden></span>
+    </header>
+    <main id="main" class="main" tabindex="-1">
+      <noscript><div class="card">Este site precisa de JavaScript habilitado.</div></noscript>
+      <div class="empty"><div class="big">⏳</div>Carregando…</div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="data/catalog.js"></script>
+  <script src="js/md.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
