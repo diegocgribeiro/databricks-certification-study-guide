@@ -52,6 +52,8 @@ tags:
 
 > [!info]
 > **Read in another language**: 🇧🇷 [Português brasileiro](./genai-engineer-associate-ptbr/pt-br/README.md) · 🇹🇭 [ภาษาไทย](./genai-engineer-associate-ptbr/th/README.md) (in progress) · For the translation index and policy, see [`genai-engineer-associate-ptbr/README.md`](./genai-engineer-associate-ptbr/README.md) and [`TRANSLATING.md`](./TRANSLATING.md).
+>
+> 🇧🇷 **Data Engineer Associate em PT-BR**: [`data-engineer-associate-ptbr/`](./data-engineer-associate-ptbr/README.md) · 🧠 **Site de estudos (todas as certificações)**: <https://diegocgribeiro.github.io/databricks-certification-study-guide/> ([`study-site/`](./study-site/README.md))
 
 ---
 
